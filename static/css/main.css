@@ -1,0 +1,25 @@
+.form-container .btn{
+  background-color: #4CAF50;
+}
+
+.container .cancel{
+    background-color: #red;
+}
+
+.chat-popup{
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.bg{
+ border-style: groove;
+  background-color: #f1f1f1;
+
+}
+
+.time-left {
+  color: #999;
+}

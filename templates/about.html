@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/main.css">
+    <meta charset="UTF-8">
+    <title>about me</title>
+</head>
+<body>
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <h1>Chat</h1>
+            <div class="bg">
+                <ul class="col-md-6 offset-md-3">
+                    <ul class="time-left">
+                        <div id="text_field" ></div>
+                     </ul>
+                </ul>
+            </div>
+            <label for="msg"><b>Message</b></label>
+            <input id="input_field" placeholder="Type message.." name="msg" required></input>
+            <button type="submit" class="btn" onclick="send_message()">Send</button>
+        </div>
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>
