@@ -1,12 +1,13 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
+from database import database
 import datetime
 
 message_list = []
 
 app = Flask(__name__)
 cors = CORS(app)
-
+database.Database.db_connection()
 
 @app.route("/uhrzeit/", methods=["GET"])
 def uhrzeit():
